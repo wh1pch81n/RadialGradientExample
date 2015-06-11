@@ -26,7 +26,7 @@ IB_DESIGNABLE
 
 @implementation MyView
 
-- (void)commonInit {
+- (void)commonInit { // Set property defaults
 	_divider = 1;
 	_gradLocation1 = 0.0;
 	_gradLocation2 = 1.0;
@@ -66,9 +66,9 @@ IB_DESIGNABLE
 
 - (UIImage *)imageWithRadialGradient:(CGSize)size :(CGPoint)gradCenter :(CGFloat)gradRadius :(UIColor *)color1 :(UIColor *)color2 :(CGFloat) gradLocation1 :(CGFloat)gradLocation2 {
 
-	//gradRadius /= _divider;
-	gradLocation1 /= pow(10, _divider);
-	gradLocation2 /= pow(10, _divider);
+	// To offset the numbers.  Uncomment to use
+	// gradLocation1 /= pow(10, _divider);
+	// gradLocation2 /= pow(10, _divider);
 
 	UIGraphicsBeginImageContextWithOptions(size, NO, 1.0);
 	CGContextRef context = UIGraphicsGetCurrentContext();
