@@ -418,6 +418,7 @@
 				C4D094E91B266AF90022969A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4D094EA1B266AF90022969A /* Build configuration list for PBXNativeTarget "RadialGradientTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				C4D094EC1B266AF90022969A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
